@@ -29,7 +29,7 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 // Endpoint with pagination
 app.MapGet("/locations", (int page = 1, int pageSize = 10) =>
